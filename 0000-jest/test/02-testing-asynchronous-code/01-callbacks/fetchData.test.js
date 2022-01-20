@@ -1,4 +1,4 @@
-import fetchData01 from '../js/fetchData01';
+import fetchData from '@/src/js/callback/fetchData';
 
 test('the data is peanut butter', done => {
   function callback(data) {
@@ -11,5 +11,5 @@ test('the data is peanut butter', done => {
     }
   }
 
-  fetchData01(callback);
+  fetchData(callback);
 });
